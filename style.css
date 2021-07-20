@@ -677,7 +677,20 @@ a {
 }
 
 p {
-    font-size: 13px;
+    font-size: 1em;
+}
+
+.text-img {
+    font-size: 1.6em;
+}
+
+#citation-text {
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+#citation-auteur {
+    font-size: 1em;
 }
 
 .tight-width-whitespace {
@@ -771,15 +784,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #bf5837;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #bf5837;
     color: #FFFFFF!important;
 }
 
