@@ -693,6 +693,12 @@ p {
     font-size: 1em;
 }
 
+.h2-style {
+    font-size: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
