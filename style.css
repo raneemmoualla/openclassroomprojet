@@ -528,7 +528,7 @@ a[data-lightbox] {
     position: relative;
     display: block;
     text-align: center;
-    justify-content: center;
+    
 }
 
 a[data-lightbox]:hover::before {
@@ -756,7 +756,7 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+    margin: auto;
 }
 
 .portfolio-row {
