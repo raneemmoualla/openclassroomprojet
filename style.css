@@ -127,7 +127,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(87, 87, 87, .8);
+    color: rgba(87, 87, 87, 1);
 }
 
 .d-bloc .a-btn:hover,
@@ -144,7 +144,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(87, 87, 87, 1);
+    color: rgba(87, 87, 87, 0.7);
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -528,6 +528,7 @@ a[data-lightbox] {
     position: relative;
     display: block;
     text-align: center;
+    justify-content: center;
 }
 
 a[data-lightbox]:hover::before {
