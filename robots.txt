@@ -1,0 +1,10 @@
+# http://tools.seobook.com/robots-txt/
+
+user-agent: *
+disallow: /css/
+disallow: /fonts/
+disallow: /img/
+disallow: /inxcludes/
+disallow: /js/
+
+sitemap: https://raneemmoualla.github.io/raneemmoualla_p4_11072021/sitemap.xml
