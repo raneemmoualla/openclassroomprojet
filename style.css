@@ -1,8 +1,12 @@
+html {
+    font-size: 100%;
+}
 body {
     margin: 0;
     padding: 0;
     background: #FFF;
     overflow-x: hidden;
+    font-size: 1rem;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -721,7 +725,7 @@ p {
 }
 
 h2 {
-    font-size: 1.37;
+    font-size: 1.37rem;
     line-height: 1.37em;
 }
 
@@ -869,13 +873,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -947,6 +951,7 @@ h4 {
         text-align: left;
         padding-left: 15px;
         width: 100%;
+        font-size: 1.7rem;
     }
     .nav>li:hover {
         background: rgba(0, 0, 0, .08);
